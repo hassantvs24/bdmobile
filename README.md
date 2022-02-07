@@ -3,7 +3,32 @@
 This is Laravel package for mobile number validator & formatter for Bangladeshi mobile operator.
 User can validate mobile number and update mobile number format. 
 
+### Installation
+ 
+Install the package through [Composer](http://getcomposer.org). On the command line:
+
+```
+composer require naztech/bdmobile
+```
+
+### Configuration
+If Laravel > 7, no need to add provider
+
+Add the following to your providers array in `config/app.php`:
+
+```
+'providers' => [
+    // ...
+
+    Naztech\BdMobile\BdMobileServiceProvider::class,
+],
+```
+
 #### Example Use 
+
+```
+use Naztech\BdMobile\BdMobile;
+```
 
 **Validate**
 
@@ -28,26 +53,6 @@ User can validate mobile number and update mobile number format.
     $mobile->fullex($mobileNumber); //Output: 008801675870047
 ```
 
-### Installation
- 
-Install the package through [Composer](http://getcomposer.org). On the command line:
-
-```
-composer require naztech/bdmobile
-```
-
-### Configuration
-If Laravel > 7, no need to add provider
-
-Add the following to your providers array in `config/app.php`:
-
-```
-'providers' => [
-    // ...
-
-    Naztech\BdMobile\BdMobileServiceProvider::class,
-],
-```
 
 ## License
 
