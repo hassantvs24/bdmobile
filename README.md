@@ -1,7 +1,6 @@
 #### BD Mobile
 
-This is Laravel package for mobile number validator & formatter for Bangladeshi mobile operator.
-User can validate mobile number and update mobile number format. 
+This is a Laravel package for mobile number validators & change the mobile number format for Bangladeshi mobile operators. 
 
 ### Installation
  
