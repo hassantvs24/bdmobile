@@ -33,7 +33,7 @@ User can validate mobile number and update mobile number format.
 Install the package through [Composer](http://getcomposer.org). On the command line:
 
 ```
-composer require hassantvs24/bdmobile
+composer require naztech/bdmobile
 ```
 
 ### Configuration
