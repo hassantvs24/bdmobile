@@ -1,0 +1,19 @@
+{
+    "name": "naztech/bdmobile",
+    "description": "This is mobile number validator & formatter for Bangladeshi mobile operator.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nazmul Hossain",
+            "email": "wall.mate@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Naztech\\BdMobile\\": "src/"
+        }
+    }
+}
