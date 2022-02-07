@@ -21,7 +21,7 @@ class ProcessNumber
                 return '+88'.$mobileNumber;
                 break;
             case 15:
-                str_replace("0088","+88", $mobileNumber);
+                return str_replace("0088","+88", $mobileNumber);
                 break;
             default:
                 return $mobileNumber;
