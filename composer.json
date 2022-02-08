@@ -1,7 +1,7 @@
 {
     "name": "naztech/bdmobile",
     "description": "Laravel package for mobile number validators & change the mobile number format for Bangladeshi mobile operators.",
-    "keywords": ["laravel","Laravel-mobile-number-validate","Laravel-mobile-number-format","bd-mobile-number"],
+    "keywords": ["laravel","Laravel-mobile-number-validate","Laravel-mobile-number-format","bd-mobile-number", "mobile-number"],
     "type": "library",
     "license": "MIT",
     "authors": [
