@@ -29,7 +29,7 @@ Add the following to your providers array in `config/app.php`:
 use Naztech\BdMobile\BdMobile;
 ```
 
-**Validate**
+**Validate Mobile Number**
 
 ```
     $mobile = new BdMobile(); //Initilization
@@ -39,7 +39,7 @@ use Naztech\BdMobile\BdMobile;
     $mobile->valid('1675870047'); //Output: trhow error exception
 ```
 
-**Format**
+**Change Mobile Number Format**
     
 ```
     $mobileNumber = '01675870047';
