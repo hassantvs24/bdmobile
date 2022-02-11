@@ -35,7 +35,7 @@ use Naztech\BdMobile\BdMobile;
     $mobile = new BdMobile(); //Initilization
     $mobile->valid('01675870047'); //Output: true
     $mobile->valid('+8801675870047'); //Output: true
-    $mobile->valid('+8801675870047'); //Output: true
+    $mobile->valid('008801675870047'); //Output: true
     $mobile->valid('1675870047'); //Output: trhow error exception
 ```
 
